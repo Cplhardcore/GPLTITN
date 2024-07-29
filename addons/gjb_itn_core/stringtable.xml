@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="itn">
+    <Package name="core">
+        <Container name="tooltips">
+            <Key ID="STR_GJB_ITN_CORE_DEVPWR">
+                <Original>Power button</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVPWRALT">
+                <Original>Momentary activation button</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVMODE">
+                <Original>Mode selection switch</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVMODEALT">
+                <Original>Mode selection ring</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVIRDF">
+                <Original>IR Illuminator diffusor cover</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVIRFO">
+                <Original>IR Illuminator focus knob</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DEVIRDFFO">
+                <Original>IR Illuminator focus knob with diffusor cover</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_FLPWR">
+                <Original>Tail-cap power button</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_FLPWRALT">
+                <Original>Power switch</Original>
+            </Key>
+            
+            <Key ID="STR_GJB_ITN_CORE_CURMODE">
+                <Original>\n  Current mode: </Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_PWRKEYA">
+                <Original>\n  Tap LMB or keybind to toggle device on\n  Hold keybind for momentary activation</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_PWRKEYB">
+                <Original>\n  Tap LMB or double-tap keybind to toggle device on for 5 minutes\n  Hold keybind for momentary activation</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_PWRKEYC">
+                <Original>\n  Tap LMB or double-tap keybind to toggle device on\n  Hold keybind for momentary activation</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_MODEKEY">
+                <Original>\n  LMB or Mouse Wheel Up to turn clockwise\n  RMB or Mouse Wheel Down to turn counter-clockwise</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_IRDFKEY">
+                <Original>\n  LMB or RMB to toggle diffusor</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_IRFOKEY">
+                <Original>\n  Hold RMB or Mouse Wheel Down to tighten beam focus\n  Hold LMB or Mouse Wheel Up to widen beam focus</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_FLMODEKEYALT">
+                <Original>\n  LMB or Mouse Wheel Up to turn counter-clockwise\n  RMB or Mouse Wheel Down to turn clockwise</Original>
+            </Key>
+
+
+            <Key ID="STR_GJB_ITN_CORE_DBALACT">
+                <Original>Activation mode selector switch</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DBALMODE">
+                <Original>Laser mode selector switch</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DBALPWR">
+                <Original>Integrated momentary activation button</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_CORE_PEQ15PWR">
+                <Original>Fire button</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_CORE_DBALPL_VIS">
+                <Original>Activation button\n  Visible</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CORE_DBALPL_IR">
+                <Original>Activation button\n  Infrared</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_NIA_DBALPLVIS">
+                <Original>Activation button\n  Mode: visible light and laser</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_NIA_DBALPLIR">
+                <Original>Activation button\n  Mode: infrared light and laser</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_RHSR_PERST3PLVL">
+                <Original>Power level buttons</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_RHSR_PERST3PLVLKEYS">
+                <Original>\n  LMB for higher power, RMB for lower power\n  Effects laser when laser or dual modes are selected\n  Effects illuminator when illuminator is selected</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_CUP_MK23FILTEROFF">
+                <Original>Remove IR Filter</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CUP_MK23FILTERON">
+                <Original>Attach IR Filter</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_CUP_LLM01SIDEPWR">
+                <Original>Right Power Button</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CUP_LLM01BACKPWR">
+                <Original>Rear Power Button</Original>
+            </Key>
+            <Key ID="STR_GJB_ITN_CUP_LLM01BACKPWRKEY">
+                <Original>\n  Tap LMB to toggle light or illuminator\n  Output is determined by spectrum of current mode</Original>
+            </Key>
+
+            <Key ID="STR_GJB_ITN_CORE_">
+                <Original></Original>
+            </Key>
+
+        </Container>
+    </Package>
+</Project>

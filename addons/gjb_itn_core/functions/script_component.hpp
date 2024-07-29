@@ -1,0 +1,1 @@
+#include "\gjb_itn\addons\gjb_itn_core\script_component.hpp"
