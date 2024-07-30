@@ -23,8 +23,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sidelima_LASER: deviceBase_la5b
@@ -39,7 +39,7 @@ class CfgITNCompat
 					{
 						"la_5b",
 						"Rsc_gjb_itn_la5b_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b"
 					};
 				};
 				class GPLT_sidefoster_LASER: deviceBase_la5b_comboVIR
@@ -54,8 +54,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class Louetta_sidefsp_LASER: deviceBase_la5b_comboVIR
@@ -70,8 +70,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class Louetta_sidefsp2_LASER: deviceBase_la5b_comboVIR
@@ -86,8 +86,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class Louetta_sidefsp3_LASER: deviceBase_la5b_comboVIR
@@ -102,8 +102,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sidehotch_LASER: deviceBase_ngal_comboVIR
@@ -118,8 +118,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sidescar2_LASER: deviceBase_la5b_comboVIR
@@ -134,8 +134,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sidescar_LASER: deviceBase_la5b_comboVIR
@@ -150,8 +150,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sidetim_LASER: deviceBase_la5b_comboVIR
@@ -166,8 +166,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sidetim3_LASER: deviceBase_ngal_comboVIR
@@ -182,8 +182,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_SideMRAD_LASER: deviceBase_la5b
@@ -198,7 +198,7 @@ class CfgITNCompat
 					{
 						"la_5b",
 						"Rsc_gjb_itn_la5b_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b"
 					};
 				};
 				class GPLT_sideurgi2_LASER: deviceBase_la5b_comboVIR
@@ -213,8 +213,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sideurgi5_LASER: deviceBase_la5b_comboVIR
@@ -229,8 +229,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sideurgi4_LASER: deviceBase_ngal_comboVIR
@@ -245,8 +245,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sideurgi3_LASER: deviceBase_ngal_comboVIR
@@ -261,8 +261,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sideurgi6_LASER: deviceBase_ngal_comboVIR
@@ -277,8 +277,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sideurgi7_LASER: deviceBase_la5b_comboVIR
@@ -293,8 +293,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
 					};
 				};
 				class GPLT_sideurgi9_LASER: deviceBase_ngal_comboVIR
@@ -309,8 +309,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sideurgi8_LASER: deviceBase_ngal_comboVIR
@@ -325,8 +325,8 @@ class CfgITNCompat
 					{
 						"ngal_combo",
 						"Rsc_gjb_itn_ngal_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300"
 					};
 				};
 				class GPLT_sidesass_p_LASER: deviceBase_la5b
@@ -341,7 +341,7 @@ class CfgITNCompat
 					{
 						"la_5b",
 						"Rsc_gjb_itn_la5b_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b"
 					};
 				};
 				class GPLT_SideSASS_LASER: deviceBase_la5b
@@ -356,7 +356,7 @@ class CfgITNCompat
 					{
 						"la_5b",
 						"Rsc_gjb_itn_la5b_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b"
 					};
 				};
 	};
