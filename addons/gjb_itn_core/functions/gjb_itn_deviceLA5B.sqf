@@ -408,7 +408,7 @@ private _deviceModeNames = [];
 			private _file = _knobOps #_mode;
 
 			//set knobs
-			private _knob =  [_base,"\",_file] joinString "";
+			private _knob =  [_base, \ ,_file] joinString "";
 			ctrlSetText [1001,_knob];
 			
 			//set tooltips
