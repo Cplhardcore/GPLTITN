@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class gjb_itn_compat_t1
+	class gjb_itn_compat_gplt
 	{
 		units[]={};
 		weapons[]={};
@@ -239,7 +239,7 @@ class Rsc_gjb_itn_peq15;
 class Rsc_gjb_itn_peq15_combo;
 class Rsc_gjb_itn_acc_flashlight;
 class Rsc_gjb_itn_m952v;
-class Rsc_gjb_itn_ngal_m300_t1: Rsc_gjb_itn_peq15_combo
+class Rsc_gjb_itn_ngal_m300_gplt: Rsc_gjb_itn_peq15_combo
 {
 	idd=314035;
 	controlsBackground[]=
@@ -259,12 +259,12 @@ class Rsc_gjb_itn_ngal_m300_t1: Rsc_gjb_itn_peq15_combo
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal\base_doff_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal\base_doff_co.paa";
 	};
 	class deviceL: device
 	{
 		idc=1003;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m300\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
@@ -345,20 +345,20 @@ class Rsc_gjb_itn_ngal_m300_t1: Rsc_gjb_itn_peq15_combo
 	class overlayL: device
 	{
 		idc=997;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M300_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\NGAL_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
 	};
 	class onIndicator: overlay
 	{
 		idc=999;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal_onIndicator.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal_onIndicator.paa";
 	};
 };
-class Rsc_gjb_itn_ngal_m600_t1: Rsc_gjb_itn_ngal_m300_t1
+class Rsc_gjb_itn_ngal_m600_gplt: Rsc_gjb_itn_ngal_m300_gplt
 {
 	idd=314036;
 	controlsBackground[]=
@@ -379,7 +379,7 @@ class Rsc_gjb_itn_ngal_m600_t1: Rsc_gjb_itn_ngal_m300_t1
 	class deviceL: device
 	{
 		idc=1003;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m600\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
 	};
 	class knob_modeL: device
 	{
@@ -476,20 +476,20 @@ class Rsc_gjb_itn_ngal_m600_t1: Rsc_gjb_itn_ngal_m300_t1
 	class overlayL: device
 	{
 		idc=997;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M600_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\NGAL_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
 	};
 	class onIndicator: overlay
 	{
 		idc=999;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal_onIndicator.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal_onIndicator.paa";
 	};
 };
-class Rsc_gjb_itn_la5b_m300_t1: Rsc_gjb_itn_ngal_m300_t1
+class Rsc_gjb_itn_la5b_m300_gplt: Rsc_gjb_itn_ngal_m300_gplt
 {
 	idd=314032;
 	controlsBackground[]=
@@ -509,12 +509,12 @@ class Rsc_gjb_itn_la5b_m300_t1: Rsc_gjb_itn_ngal_m300_t1
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b\base_doff_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b\base_doff_co.paa";
 	};
 	class deviceL: device
 	{
 		idc=1003;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m300\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
@@ -583,20 +583,20 @@ class Rsc_gjb_itn_la5b_m300_t1: Rsc_gjb_itn_ngal_m300_t1
 	class overlayL: device
 	{
 		idc=997;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M300_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\LA5B_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_overlay_co.paa";
 	};
 	class onIndicator: overlay
 	{
 		idc=999;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\LA5B_onIndicator.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_onIndicator.paa";
 	};
 };
-class Rsc_gjb_itn_la5b_m600_t1: Rsc_gjb_itn_la5b_m300_t1
+class Rsc_gjb_itn_la5b_m600_gplt: Rsc_gjb_itn_la5b_m300_gplt
 {
 	idd=314033;
 	controlsBackground[]=
@@ -617,7 +617,7 @@ class Rsc_gjb_itn_la5b_m600_t1: Rsc_gjb_itn_la5b_m300_t1
 	class deviceL: device
 	{
 		idc=1003;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m600\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
 	};
 	class knob_modeL: device
 	{
@@ -702,10 +702,10 @@ class Rsc_gjb_itn_la5b_m600_t1: Rsc_gjb_itn_la5b_m300_t1
 	class overlayL: device
 	{
 		idc=997;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M600_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
 	};
 };
-class Rsc_gjb_itn_ngal_t1: Rsc_gjb_itn_peq15
+class Rsc_gjb_itn_ngal_gplt: Rsc_gjb_itn_peq15
 {
 	idd=314034;
 	controlsBackground[]=
@@ -723,7 +723,7 @@ class Rsc_gjb_itn_ngal_t1: Rsc_gjb_itn_peq15
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\ngal\base_doff_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal\base_doff_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
@@ -792,16 +792,16 @@ class Rsc_gjb_itn_ngal_t1: Rsc_gjb_itn_peq15
 	};
 	class overlay: device
 	{
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\NGAL_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
 	};
 	idc=998;
 	class onIndicator: overlay
 	{
 		idc=999;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\NGAL_onIndicator_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_onIndicator_co.paa";
 	};
 };
-class Rsc_gjb_itn_la5b_t1: Rsc_gjb_itn_peq15
+class Rsc_gjb_itn_la5b_gplt: Rsc_gjb_itn_peq15
 {
 	idd=314031;
 	controlsBackground[]=
@@ -819,7 +819,7 @@ class Rsc_gjb_itn_la5b_t1: Rsc_gjb_itn_peq15
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b\base_doff_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b\base_doff_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
@@ -877,26 +877,26 @@ class Rsc_gjb_itn_la5b_t1: Rsc_gjb_itn_peq15
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\LA5B_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_overlay_co.paa";
 	};
 	class onIndicator: overlay
 	{
 		idc=999;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\LA5B_onIndicator_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_onIndicator_co.paa";
 	};
 };
-class Rsc_gjb_itn_m300_t1: Rsc_gjb_itn_acc_flashlight
+class Rsc_gjb_itn_m300_gplt: Rsc_gjb_itn_acc_flashlight
 {
 	idd=314037;
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m300\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M300_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
@@ -929,12 +929,12 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\m600\base_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="\gjb_itn\addons\gjb_itn_compat_t1\ui\M600_overlay_co.paa";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
