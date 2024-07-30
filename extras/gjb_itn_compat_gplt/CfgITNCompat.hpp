@@ -360,4 +360,22 @@ class CfgITNCompat
 					};
 				};
 	};
+class weapons
+	{
+		//HK416 D10
+			class GPLT_tran_foster
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class Tier1_HK416D10_SMR_LMT
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.238182,0.0466169,0.103306}
+				};
+			};
+	};
 };
