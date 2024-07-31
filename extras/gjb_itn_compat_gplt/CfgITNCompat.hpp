@@ -361,7 +361,7 @@ class CfgITNCompat
 					};
 				};
 	};
-class weapons
+class CfgWeapons
 	{
 		//HK416 D10
 			class GPLT_tran_foster

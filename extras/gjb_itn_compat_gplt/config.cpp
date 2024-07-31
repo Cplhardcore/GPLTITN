@@ -1116,7 +1116,7 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 			};
 		};
 	};
-	class weapons
+class CfgWeapons
 	{
 		//HK416 D10
 			class GPLT_tran_foster
