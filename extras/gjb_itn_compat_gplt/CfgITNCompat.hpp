@@ -46,8 +46,8 @@ class CfgITNCompat
 				{
 					gjb_itn_memoryPoints[]=
 					{
-						{0.2,0,0.105},
-						{0.2,0,0.105},
+						{-0.140517,0.022622,-0.00231253},
+						{-0.140517,0.022622,-0.00231253},
 						{-0.163857,0.000499235,0.0358282}
 					};
 					gjb_itn_interface[]=
@@ -110,9 +110,9 @@ class CfgITNCompat
 				{
 					gjb_itn_memoryPoints[]=
 					{
-						{-0.142712,0.0227977,-0.0026075},
-						{-0.142712,0.0227977,-0.0026075},
-						{-0.142149,0.09436,0.036764}
+						{-0.0247917,0.0295443,0.00130102},
+						{-0.0247917,0.0295443,0.00130102},
+						{-0.0428405,0.0830315,0.0194584}
 					};
 					gjb_itn_interface[]=
 					{
@@ -392,7 +392,13 @@ class weapons
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_tim
+			class GPLT_tran_mk17_wht: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_blk: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_1: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_2: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_3: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_4: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_gry: GPLT_tran_mk17{};
 			{
 				gjb_itn_memoryPoints[]=
 				{
@@ -406,21 +412,21 @@ class weapons
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_URGI_Short
-			{
-				gjb_itn_memoryPoints[]=
-				{
-					{-0.283867,0.046036,0.106207}
-				};
-			};
-			class GPLT_tran_URGI_Short
-			{
-				gjb_itn_memoryPoints[]=
-				{
-					{-0.283867,0.046036,0.106207}
-				};
-			};
 			class GPLT_tran_URGI
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GGPLT_M110_SASS
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_M110_SASS_P
 			{
 				gjb_itn_memoryPoints[]=
 				{
