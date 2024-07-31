@@ -1154,6 +1154,7 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 			class GPLT_tran_mk17_s_3: GPLT_tran_mk17{};
 			class GPLT_tran_mk17_s_4: GPLT_tran_mk17{};
 			class GPLT_tran_mk17_gry: GPLT_tran_mk17{};
+			class GPLT_tran_tim
 			{
 				gjb_itn_memoryPoints[]=
 				{
