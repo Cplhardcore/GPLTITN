@@ -1161,20 +1161,6 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_URGI_Short
-			{
-				gjb_itn_memoryPoints[]=
-				{
-					{-0.283867,0.046036,0.106207}
-				};
-			};
-			class GPLT_tran_URGI_Short
-			{
-				gjb_itn_memoryPoints[]=
-				{
-					{-0.283867,0.046036,0.106207}
-				};
-			};
 			class GPLT_tran_URGI
 			{
 				gjb_itn_memoryPoints[]=
