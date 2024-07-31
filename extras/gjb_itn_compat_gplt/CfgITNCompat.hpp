@@ -72,7 +72,7 @@ class CfgITNCompat
 						"Rsc_gjb_itn_la5b_m300_gplt",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
-					}
+					};
 				};
 				class Louetta_sidefsp2_LASER: deviceBase_la5b_comboVIR
 				{
@@ -104,7 +104,7 @@ class CfgITNCompat
 						"Rsc_gjb_itn_la5b_m300_gplt",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
-					}
+					};
 				};
 				class GPLT_sidehotch_LASER: deviceBase_ngal_comboVIR
 				{
@@ -136,7 +136,7 @@ class CfgITNCompat
 						"Rsc_gjb_itn_la5b_m300_gplt",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
 						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
-					}
+					};
 				};
 				class GPLT_sidescar_LASER: deviceBase_la5b_comboVIR
 				{
