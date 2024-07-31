@@ -23,8 +23,8 @@ class CfgITNCompat
 					{
 						"la_5b_combo",
 						"Rsc_gjb_itn_la5b_m300_gplt",
-						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
-						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
 					};
 				};
 				class GPLT_sidelima_LASER: deviceBase_la5b
@@ -46,8 +46,8 @@ class CfgITNCompat
 				{
 					gjb_itn_memoryPoints[]=
 					{
-						{0,0,0},
-						{0,0,0},
+						{-0.140517,0.022622,-0.00231253},
+						{-0.140517,0.022622,-0.00231253},
 						{0,0,0}
 					};
 					gjb_itn_interface[]=
@@ -110,8 +110,8 @@ class CfgITNCompat
 				{
 					gjb_itn_memoryPoints[]=
 					{
-						{0,0,0},
-						{0,0,0},
+						{0.2,0.04,0.112},
+						{0.2,0.04,0.112},
 						{0,0,0}
 					};
 					gjb_itn_interface[]=
@@ -368,13 +368,6 @@ class weapons
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
-				};
-			};
-			class Tier1_HK416D10_SMR_LMT
-			{
-				gjb_itn_memoryPoints[]=
-				{
-					{-0.238182,0.0466169,0.103306}
 				};
 			};
 	};

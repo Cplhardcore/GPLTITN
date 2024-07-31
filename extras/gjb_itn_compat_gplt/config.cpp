@@ -57,6 +57,13 @@ class CfgITNCompat
 						{-0.140517,0.022622,-0.00231253},
 						{-0.163857,0.000499235,0.0358282}
 					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_t1\ui\m300_bk"
+					};
 				};
 				class Louetta_sidefsp_LASER: deviceBase_la5b_comboVIR
 				{
@@ -970,5 +977,16 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
 			};
 		};
+	};
+	class weapons
+	{
+		//HK416 D10
+			class GPLT_tran_foster
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
 	};
 };
