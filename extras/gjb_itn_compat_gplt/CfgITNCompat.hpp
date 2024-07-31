@@ -368,7 +368,7 @@ class CfgWeapons
 			{
 				gjb_itn_memoryPoints[]=
 				{
-					{-0.283867,0.046036,0.106207}
+					{0.029436,-1.76599e-008,0.0951298}
 				};
 			};
 			class Louetta_tran_fsp_base
