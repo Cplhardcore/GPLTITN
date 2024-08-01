@@ -8,637 +8,385 @@ class CfgPatches
 		{
 			"gjb_itn_core"
 		};
-		name="Illuminate The Night - GPLT Compat Patch";
+		name="Illuminate The Night - Tier One Weapons";
 		authors="GhostJB";
 	};
 };
 class CfgITNCompat
 {
+//Accessories
 	class accessories
 	{
+		class acc_flashlight;
+		class deviceBase_m952;
 		class deviceBase_la5b;
-		class deviceBase_la5b_comboGenVIR;
+		class deviceBase_la5b_comboWO;
 		class deviceBase_la5b_comboVIR;
 		class deviceBase_ngal;
-		class deviceBase_ngal_comboGenWO;
-		class deviceBase_ngal_comboGenVIR;
 		class deviceBase_ngal_comboWO;
 		class deviceBase_ngal_comboVIR;
-		class GPLT_SideFSP3_LASER: deviceBase_la5b
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.124116,0.034205802,-0.0504326},
-				{-0.124116,0.034205802,-0.0504326},
-				{0,0,0}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideFSP3_Vis_Laser: GPLT_SideFSP3_LASER
-		{
-		};
-		class GPLT_SideFSP3_FLASH: GPLT_SideFSP3_LASER
-		{
-		};
-		class GPLT_SideLima_LASER: GPLT_SideFSP3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.032523699,-0.031719901,0.021718301},
-				{-0.032523699,-0.031719901,0.021718301},
-				{0,0,0}
-			};
-		};
-		class GPLT_SideLima_Vis_Laser: GPLT_SideLima_LASER
-		{
-		};
-		class GPLT_SideLima_FLASH: GPLT_SideLima_LASER
-		{
-		};
-		class GPLT_SideMonsoor_LASER: GPLT_SideFSP3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0268072,0.042443901,-0.020848},
-				{-0.0268072,0.042443901,-0.020848},
-				{0,0,0}
-			};
-		};
-		class GPLT_SideMonsoor_Vis_Laser: GPLT_SideMonsoor_LASER
-		{
-		};
-		class GPLT_SideMonsoor_FLASH: GPLT_SideMonsoor_LASER
-		{
-		};
-		class GPLT_SideMRAD_LASER: GPLT_SideFSP3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.136676,0.0352467,-0.0525828},
-				{-0.136676,0.0352467,-0.0525828},
-				{0,0,0}
-			};
-		};
-		class GPLT_SideMRAD_Vis_Laser: GPLT_SideMRAD_LASER
-		{
-		};
-		class GPLT_SideMRAD_FLASH: GPLT_SideMRAD_LASER
-		{
-		};
-		class GPLT_SideSASS_LASER: GPLT_SideFSP3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0182602,0.034270499,-0.053282499},
-				{-0.0182602,0.034270499,-0.053282499},
-				{0,0,0}
-			};
-		};
-		class GPLT_SideSASS_Vis_Laser: GPLT_SideSASS_LASER
-		{
-		};
-		class GPLT_SideSASS_FLASH: GPLT_SideSASS_LASER
-		{
-		};
-		class GPLT_SideSCAR2_LASER: GPLT_SideFSP3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.066580601,0.034992501,-0.066153303},
-				{-0.066580601,0.034992501,-0.066153303},
-				{0,0,0}
-			};
-		};
-		class GPLT_SideSCAR2_Vis_Laser: GPLT_SideSCAR2_LASER
-		{
-		};
-		class GPLT_SideSCAR2_FLASH: GPLT_SideSCAR2_LASER
-		{
-		};
-		class GPLT_SideBlock_LASER: deviceBase_la5b_comboGenVIR
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.104871,0.0226421,0.0096418103},
-				{-0.104871,0.0226421,0.0096418103},
-				{-0.15838601,0.044000801,-0.024522301}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideBlock_Vis_Laser: GPLT_SideBlock_LASER
-		{
-		};
-		class GPLT_SideBlock_FLASH: GPLT_SideBlock_LASER
-		{
-		};
-		class GPLT_SideFSP_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.153753,0.0220119,0.0092258397},
-				{-0.153753,0.0220119,0.0092258397},
-				{-0.18692601,0.043370601,-0.0249383}
-			};
-		};
-		class GPLT_SideFSP_Vis_Laser: GPLT_SideFSP_LASER
-		{
-		};
-		class GPLT_SideFSP_FLASH: GPLT_SideFSP_LASER
-		{
-		};
-		class GPLT_SideFSP2_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0158161,0.021350199,0.0090979896},
-				{-0.0158161,0.021350199,0.0090979896},
-				{-0.16004799,0.0432247,-0.021922801}
-			};
-		};
-		class GPLT_SideFSP2_Vis_Laser: GPLT_SideFSP2_LASER
-		{
-		};
-		class GPLT_SideFSP2_FLASH: GPLT_SideFSP2_LASER
-		{
-		};
-		class GPLT_SideHound_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.10025,0.0229773,0.0098369103},
-				{-0.10025,0.0229773,0.0098369103},
-				{-0.095398098,0.0418601,-0.028206199}
-			};
-		};
-		class GPLT_SideHound_Vis_Laser: GPLT_SideHound_LASER
-		{
-		};
-		class GPLT_SideHound_FLASH: GPLT_SideHound_LASER
-		{
-		};
-		class GPLT_SideHound2_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.071581602,0.033209398,-0.055318899},
-				{-0.071581602,0.033209398,-0.055318899},
-				{-0.092780001,-0.0422672,-0.034586102}
-			};
-		};
-		class GPLT_SideHound2_Vis_Laser: GPLT_SideHound2_LASER
-		{
-		};
-		class GPLT_SideHound2_FLASH: GPLT_SideHound2_LASER
-		{
-		};
-		class GPLT_SideLURGI_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.084608801,0.023225799,0.0102457},
-				{-0.084608801,0.023225799,0.0102457},
-				{-0.117782,0.044584502,-0.0239184}
-			};
-		};
-		class GPLT_SideLURGI_Vis_Laser: GPLT_SideLURGI_LASER
-		{
-		};
-		class GPLT_SideLURGI_FLASH: GPLT_SideLURGI_LASER
-		{
-		};
-		class GPLT_SideLURGI2_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.089553699,0.023328699,0.0098566497},
-				{0.089553699,0.023328699,0.0098566497},
-				{-0.117782,0.044687402,-0.024307501}
-			};
-		};
-		class GPLT_SideLURGI2_Vis_Laser: GPLT_SideLURGI2_LASER
-		{
-		};
-		class GPLT_SideLURGI2_FLASH: GPLT_SideLURGI2_LASER
-		{
-		};
-		class GPLT_SideMod_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0372351,0.021966301,0.0091725904},
-				{-0.0372351,0.021966301,0.0091725904},
-				{-0.097114198,0.0433705,-0.0229798}
-			};
-		};
-		class GPLT_SideMod_Vis_Laser: GPLT_SideMod_LASER
-		{
-		};
-		class GPLT_SideMod_FLASH: GPLT_SideMod_LASER
-		{
-		};
-		class GPLT_SideSCAR_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.060116898,0.0221503,0.0103575},
-				{-0.060116898,0.0221503,0.0103575},
-				{-0.074056096,0.041339599,-0.0183965}
-			};
-		};
-		class GPLT_SideSCAR_Vis_Laser: GPLT_SideSCAR_LASER
-		{
-		};
-		class GPLT_SideSCAR_FLASH: GPLT_SideSCAR_LASER
-		{
-		};
-		class GPLT_SideSURGI_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.084936999,0.023742599,0.0095561203},
-				{0.084936999,0.023742599,0.0095561203},
-				{-0.0103059,0.044142999,-0.024780599}
-			};
-		};
-		class GPLT_SideSURGI_Vis_Laser: GPLT_SideSURGI_LASER
-		{
-		};
-		class GPLT_SideSURGI_FLASH: GPLT_SideSURGI_LASER
-		{
-		};
-		class GPLT_SideSURGI3_LASER: GPLT_SideBlock_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.024903599,0.024660699,0.0099041099},
-				{0.024903599,0.024660699,0.0099041099},
-				{-0.0082692103,0.046019401,-0.024259999}
-			};
-		};
-		class GPLT_SideSURGI3_Vis_Laser: GPLT_SideSURGI3_LASER
-		{
-		};
-		class GPLT_SideSURGI3_FLASH: GPLT_SideSURGI3_LASER
-		{
-		};
-		class GPLT_SideBlock2_LASER: deviceBase_la5b_comboGenVIR
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.104871,0.0226421,0.0096418103},
-				{-0.104871,0.0226421,0.0096418103},
-				{-0.15345,0.044000801,-0.0265665}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideBlock2_Vis_Laser: GPLT_SideBlock2_LASER
-		{
-		};
-		class GPLT_SideBlock2_FLASH: GPLT_SideBlock2_LASER
-		{
-		};
-		class GPLT_SideMod2_LASER: GPLT_SideBlock2_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0372351,0.022552099,0.0097486898},
-				{-0.0372351,0.022552099,0.0097486898},
-				{-0.085988998,0.043956298,-0.0261443}
-			};
-		};
-		class GPLT_SideMod2_Vis_Laser: GPLT_SideMod2_LASER
-		{
-		};
-		class GPLT_SideMod2_FLASH: GPLT_SideMod2_LASER
-		{
-		};
-		class GPLT_SideFSP4_LASER: deviceBase_ngal_comboGenVIR
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.147461,0.0178189,0.018033201},
-				{-0.147461,0.0178189,0.018033201},
-				{-0.184714,-0.041121799,-0.00274943}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideFSP4_Vis_Laser: GPLT_SideFSP4_LASER
-		{
-		};
-		class GPLT_SideFSP4_FLASH: GPLT_SideFSP4_LASER
-		{
-		};
-		class GPLT_SideLURGI3_LASER: GPLT_SideFSP4_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.096818902,0.0194645,0.00674649},
-				{-0.096818902,0.0194645,0.00674649},
-				{-0.15672,-0.040618401,-0.00160074}
-			};
-		};
-		class GPLT_SideLURGI3_Vis_Laser: GPLT_SideLURGI3_LASER
-		{
-		};
-		class GPLT_SideLURGI3_FLASH: GPLT_SideLURGI3_LASER
-		{
-		};
-		class GPLT_SideLURGI4_LASER: GPLT_SideFSP4_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.087363802,0.034164399,-0.044454101},
-				{-0.087363802,0.034164399,-0.044454101},
-				{-0.120299,-0.037625,-0.0033277001}
-			};
-		};
-		class GPLT_SideLURGI4_Vis_Laser: GPLT_SideLURGI4_LASER
-		{
-		};
-		class GPLT_SideLURGI4_FLASH: GPLT_SideLURGI4_LASER
-		{
-		};
-		class GPLT_SideMod3_LASER: GPLT_SideFSP4_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.047085699,0.0156678,0.0066940701},
-				{-0.047085699,0.0156678,0.0066940701},
-				{-0.108367,0.040513098,-0.00295485}
-			};
-		};
-		class GPLT_SideMod3_Vis_Laser: GPLT_SideMod3_LASER
-		{
-		};
-		class GPLT_SideMod3_FLASH: GPLT_SideMod3_LASER
-		{
-		};
-		class GPLT_SideSURGI4_LASER: GPLT_SideFSP4_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.0064189099,0.016909899,0.0068879798},
-				{0.0064189099,0.016909899,0.0068879798},
-				{-0.0241515,0.042762998,-0.00210545}
-			};
-		};
-		class GPLT_SideSURGI4_Vis_Laser: GPLT_SideSURGI4_LASER
-		{
-		};
-		class GPLT_SideSURGI4_FLASH: GPLT_SideSURGI4_LASER
-		{
-		};
-		class GPLT_SideSCAR3_LASER: deviceBase_ngal_comboGenVIR
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.052767899,0.0159203,0.0074865902},
-				{-0.052767899,0.0159203,0.0074865902},
-				{-0.055342302,0.044484101,-0.0438607}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideSCAR3_Vis_Laser: GPLT_SideSCAR3_LASER
-		{
-		};
-		class GPLT_SideSCAR3_FLASH: GPLT_SideSCAR3_LASER
-		{
-		};
-		class GPLT_SideSURGI2_LASER: GPLT_SideSCAR3_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.088118397,0.016816299,0.0066575701},
-				{0.088118397,0.016816299,0.0066575701},
-				{-0.032999001,0.046268702,-0.027107401}
-			};
-		};
-		class GPLT_SideSURGI2_Vis_Laser: GPLT_SideSURGI2_LASER
-		{
-		};
-		class GPLT_SideSURGI2_FLASH: GPLT_SideSURGI2_LASER
-		{
-		};
-		class GPLT_SideLT_LASER: deviceBase_ngal_comboGenWO
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.091873899,0.015958,0.0118999},
-				{-0.091873899,0.015958,0.0118999},
-				{-0.15457501,0.0308994,-0.0051638298}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideLT_Vis_Laser: GPLT_SideLT_LASER
-		{
-		};
-		class GPLT_SideLT_FLASH: GPLT_SideLT_LASER
-		{
-		};
-		class GPLT_SideLT2_LASER: GPLT_SideLT_LASER
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{0.045621701,0.015958,0.0118999},
-				{0.045621701,0.015958,0.0118999},
-				{-0.121484,0.0308994,-0.0051638298}
-			};
-		};
-		class GPLT_SideLT2_Vis_Laser: GPLT_SideLT2_LASER
-		{
-		};
-		class GPLT_SideLT2_FLASH: GPLT_SideLT2_LASER
-		{
-		};
-		class GPLT_SideLT4_LASER: deviceBase_ngal_comboGenVIR
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.103569,0.040864199,0.0160881},
-				{-0.103569,0.040864199,0.0160881},
-				{-0.120531,0.0445017,-0.031977098}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideLT4_Vis_Laser: GPLT_SideLT4_LASER
-		{
-		};
-		class GPLT_SideLT4_FLASH: GPLT_SideLT4_LASER
-		{
-		};
-		class GPLT_SideLT3_LASER: deviceBase_ngal_comboGenWO
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.0889901,4.0663701e-005,0.0227054},
-				{-0.0889901,4.0663701e-005,0.0227054},
-				{-0.111995,-0.038795602,-0.0108937}
-			};
-			gjb_itn_interface[]=
-			{
-				"generic",
-				"Rsc_gjb_itn_generic_deviceclass"
-			};
-		};
-		class GPLT_SideLT3_Vis_Laser: GPLT_SideLT3_LASER
-		{
-		};
-		class GPLT_SideLT3_FLASH: GPLT_SideLT3_LASER
-		{
-		};
-	};
-	class weapons
-	{
-		class GPLT_M110_SASS
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.301,0,0.101}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_M110K1
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.301,0,0.101}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_M240L
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.375,0,0.044}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_Block_II
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.18799999,0,0.098999999}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_FSP_Base
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.18799999,0,0.098999999}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_MK17
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.17200001,0,0.119}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_MK18
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.18799999,0,0.098999999}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_MK48
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.242,0,0.037}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-			gjb_itn_beltFedFix=0.18000001;
-		};
-		class GPLT_MK48_S
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.242,0,0.037}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-			gjb_itn_beltFedFix=0.18000001;
-		};
-		class GPLT_MRAD
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.32100001,0,0.107}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_SPEAR_LT
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.18799999,0,0.098999999}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_URGI_10
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.234,0.001,0.097999997}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
-		class GPLT_URGI_14
-		{
-			gjb_itn_memoryPoints[]=
-			{
-				{-0.234,0.001,0.097999997}
-			};
-			gjb_itn_nonStdRailFix="rawPos";
-		};
+				class GPLT_sideLAMG_1_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{0.00314038,0.0280959,-0.0219772},
+						{0.00314038,0.0280959,-0.0219772},
+						{-0.0441965,-0.00256648,0.0344117}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sidelima_LASER: deviceBase_la5b
+				{
+					gjb_itn_memoryPoints[]=
+					{ 
+						{-0.0431546,-0.00993953,0.0236848},
+						{-0.0431546,-0.00993953,0.0236848},
+						{0,0,0}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b",
+						"Rsc_gjb_itn_la5b_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+					};
+				};
+				class GPLT_sidefoster_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.140517,0.022622,-0.00231253},
+						{-0.140517,0.022622,-0.00231253},
+						{-0.163857,0.000499235,0.0358282}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class Louetta_sidefsp_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.142712,0.0227977,-0.0026075},
+						{-0.142712,0.0227977,-0.0026075},
+						{-0.142149,-0.00133174,0.036764}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class Louetta_sidefsp2_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.00316963,0.0228322,-0.00252764},
+						{-0.00316963,0.0228322,-0.00252764},
+						{-0.147873,-0.000896983,0.036923}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class Louetta_sidefsp3_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.142712,0.0227977,-0.0026075},
+						{-0.142712,0.0227977,-0.0026075},
+						{-0.142149,0.09436,0.036764}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sidehotch_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0247917,0.0295443,0.00130102},
+						{-0.0247917,0.0295443,0.00130102},
+						{-0.0428405,0.0830315,0.0194584}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sidescar2_LASER: deviceBase_la5b_comboVIR
+				{	
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.169262,-0.0366819,0.0693878},
+						{-0.169262,-0.0366819,0.0693878},
+						{-0.189229,0.0438918,0.0456499}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sidescar_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.013767,-0.0273162,-0.00982422},
+						{-0.013767,-0.0273162,-0.00982422},
+						{-0.0326958,0.0449866,0.046257}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sidetim_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0040788,0.0221144,-0.00256965},
+						{-0.0040788,0.0221144,-0.00256965},
+						{-0.0372582,0.000366144,0.0357173}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sidetim3_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0161455,0.0294905,-0.00841968},
+						{-0.0161455,0.0294905,-0.00841968},
+						{-0.0370695,0.000982035,0.0350474}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_SideMRAD_LASER: deviceBase_la5b
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.145602,0.0352467,-0.0525828},
+						{-0.145602,0.0352467,-0.0525828},
+						{0,0,0}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sideurgi2_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0168677,0.0220702,-0.00206376},
+						{-0.0168677,0.0220702,-0.00206376},
+						{-0.0584723,0.091493,0.0367756}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sideurgi5_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0168677,0.0220702,-0.00206376},
+						{-0.0168677,0.0220702,-0.00206376},
+						{-0.0584723,-0.00102174,0.0362551}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sideurgi4_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{0.0794153,0.029007,0.00108599},
+						{0.0794153,0.029007,0.00108599},
+						{-0.0385695,0.0138974,0.0166917}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sideurgi3_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0367541,0.0293591,0.00114851},
+						{-0.0367541,0.0293591,0.00114851},
+						{-0.0584723,0.091493,0.0367756}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sideurgi6_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0367541,0.0293591,0.00114851},
+						{-0.0367541,0.0293591,0.00114851},
+						{-0.0584723,-0.00133179,0.0367756}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sideurgi7_LASER: deviceBase_la5b_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{0.0229692,0.0217679,-0.00244795},
+						{0.0229692,0.0217679,-0.00244795},
+						{-0.012445,-0.00132403,0.0358709}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b_combo",
+						"Rsc_gjb_itn_la5b_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300_bk"
+					};
+				};
+				class GPLT_sideurgi9_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{0.0100276,0.0295701,0.001244},
+						{0.0100276,0.0295701,0.001244},
+						{-0.012445,0.00122349,0.0361895}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sideurgi8_LASER: deviceBase_ngal_comboVIR
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{0.0100276,0.0295701,0.001244},
+						{0.0100276,0.0295701,0.001244},
+						{-0.012445,-0.00132403,0.0358709}
+					};
+					gjb_itn_interface[]=
+					{
+						"ngal_combo",
+						"Rsc_gjb_itn_ngal_m300_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300"
+					};
+				};
+				class GPLT_sidesass_p_LASER: deviceBase_la5b
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0489236,-0.0343846,0.0512323},
+						{-0.0489236,-0.0343846,0.0512323},
+						{0,0,0}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b",
+						"Rsc_gjb_itn_la5b_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+					};
+				};
+				class GPLT_SideSASS_LASER: deviceBase_la5b
+				{
+					gjb_itn_memoryPoints[]=
+					{
+						{-0.0271855,0.0342705,-0.0532825},
+						{-0.0271855,0.0342705,-0.0532825},
+						{0,0,0}
+					};
+					gjb_itn_interface[]=
+					{
+						"la_5b",
+						"Rsc_gjb_itn_la5b_gplt",
+						"\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b"
+					};
+				};
 	};
 };
 class Rsc_gjb_itn_BackPicture;
 class Rsc_gjb_itn_HiddenButton;
 class Rsc_gjb_itn_autoOn_base;
 class Rsc_gjb_itn_ctrlsHolder_base;
-class RscCombo;
-class Rsc_gjb_itn_dbala2;
+class Rsc_gjb_itn_peq15;
 class Rsc_gjb_itn_peq15_combo;
-class Rsc_gjb_itn_ngal_GPLT: Rsc_gjb_itn_peq15_combo
+class Rsc_gjb_itn_acc_flashlight;
+class Rsc_gjb_itn_m952v;
+class Rsc_gjb_itn_ngal_m300_gplt: Rsc_gjb_itn_peq15_combo
 {
-	idd=314039;
-	movingEnable=1;
-	enableSimulation=1;
-	onLoad="";
-	onUnload="";
+	idd=314035;
 	controlsBackground[]=
 	{
 		"deviceL",
@@ -656,22 +404,18 @@ class Rsc_gjb_itn_ngal_GPLT: Rsc_gjb_itn_peq15_combo
 	class device: Rsc_gjb_itn_BackPicture
 	{
 		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal\base_doff_co.paa";
 	};
 	class deviceL: device
 	{
 		idc=1003;
-	};
-	class knob_mode: device
-	{
-		idc=1001;
-		text="";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
 	};
 	class fire_menu: Rsc_gjb_itn_autoOn_base
 	{
-		type=4;
 		idc=1050;
-		style=0;
-		font="PuristaMedium";
+		x="safeZoneX + safeZoneW * 0.34765625";
+		y="safeZoneY + safeZoneH * 0.51736112";
 	};
 	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
 	{
@@ -681,10 +425,10 @@ class Rsc_gjb_itn_ngal_GPLT: Rsc_gjb_itn_peq15_combo
 			class button_mode: Rsc_gjb_itn_HiddenButton
 			{
 				idc=1100;
-				x="safeZoneX + safeZoneW * 0.4296875";
-				y="safeZoneY + safeZoneH * 0.66666667";
-				w="safeZoneW * 0.0390625";
-				h="safeZoneH * 0.0625";
+				x=0.4269886;
+				y=0.66035354;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
 				text="";
 				colorBackground[]={0,0,0,0};
 				colorText[]={0,0,0,0};
@@ -692,68 +436,758 @@ class Rsc_gjb_itn_ngal_GPLT: Rsc_gjb_itn_peq15_combo
 				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
 				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceNGALCombo";
-				tooltip="Activation Mode Select: Left-click for NEXT, Right-click for PREV, or scroll with Mouse-wheel";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
 			};
 			class button_on: button_mode
 			{
 				idc=1101;
-				x="safeZoneX + safeZoneW * 0.44335938";
-				y="safeZoneY + safeZoneH * 0.58159723";
-				w="safeZoneW * 0.02539063";
-				h="safeZoneH * 0.04861112";
+				x=0.45729163;
+				y=0.50883842;
+				w="safeZoneW * 0.030625";
+				h="safeZoneH * 0.04555556";
 				onMouseButtonDown="['fire1',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseButtonUp="['fire1',_this #1,'bu'] call gjb_itn_fnc_deviceNGALCombo";
 				onMouseZChanged="";
-				tooltip="Momentary Activation Switch: Click for continuous on for 5 minutes";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
 			};
 			class button_illumDiffuse: button_mode
 			{
 				idc=1111;
-				x="safeZoneX + safeZoneW * 0.40234375";
-				y="safeZoneY + safeZoneH * 0.54166667";
-				w="safeZoneW * 0.03515625";
-				h="safeZoneH * 0.0625";
-				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
-				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				x=0.39365527;
+				y=0.4320707;
+				w="safeZoneW * 0.0275";
+				h="safeZoneH * 0.03666667";
+				onMouseButtonDown="['illumDiff',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseButtonUp="";
 				onMouseZChanged="";
-				tooltip="Toggle diffusor cap: Left-click";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDF";
 			};
 			class button_illumFocus: button_mode
 			{
 				idc=1112;
-				x="safeZoneX + safeZoneW * 0.40722657";
-				y="safeZoneY + safeZoneH * 0.74652778";
-				w="safeZoneW * 0.03125";
-				h="safeZoneH * 0.06944445";
+				x=0.37698862;
+				y=0.80176771;
+				w="safeZoneW * 0.0325";
+				h="safeZoneH * 0.06666667";
 				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
 				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
 				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceNGALCombo";
-				tooltip="Adjust Illuminator Focus: Left-click to narrow, Right-click to widen, or scroll with Mouse-wheel";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRFO";
 			};
 			class button_onL: button_mode
 			{
 				idc=1121;
-				x="safeZoneX + safeZoneW * 0.52050782";
-				y="safeZoneY + safeZoneH * 0.77430556";
-				w="safeZoneW * 0.03125";
-				h="safeZoneH * 0.05555556";
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
 				onMouseButtonDown="['fire2.5',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
 				onMouseZChanged="";
-				tooltip="Momentary Activation Switch: Click for continuous on for 5 minutes";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
 			};
 		};
 	};
 	class overlayL: device
 	{
 		idc=997;
-		text="";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
 	};
 	class overlay: device
 	{
 		idc=998;
-		text="";
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
 	};
 	class onIndicator: overlay
 	{
 		idc=999;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal_onIndicator.paa";
+	};
+};
+class Rsc_gjb_itn_ngal_m600_gplt: Rsc_gjb_itn_ngal_m300_gplt
+{
+	idd=314036;
+	controlsBackground[]=
+	{
+		"deviceL",
+		"knob_modeL",
+		"device",
+		"knob_mode"
+	};
+	controls[]=
+	{
+		"onIndicator",
+		"overlay",
+		"overlayL",
+		"fire_menu",
+		"ctrls_holder"
+	};
+	class deviceL: device
+	{
+		idc=1003;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
+	};
+	class knob_modeL: device
+	{
+		idc=1002;
+		text="";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.34765625";
+		y="safeZoneY + safeZoneH * 0.51736112";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		idc=1060;
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.4269886;
+				y=0.66035354;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				text="";
+				colorBackground[]={0,0,0,0};
+				colorText[]={0,0,0,0};
+				font="PuristaMedium";
+				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceNGALCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.45729163;
+				y=0.50883842;
+				w="safeZoneW * 0.030625";
+				h="safeZoneH * 0.04555556";
+				onMouseButtonDown="['fire1',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseButtonUp="['fire1',_this #1,'bu'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
+			};
+			class button_illumDiffuse: button_mode
+			{
+				idc=1111;
+				x=0.39365527;
+				y=0.4320707;
+				w="safeZoneW * 0.0275";
+				h="safeZoneH * 0.03666667";
+				onMouseButtonDown="['illumDiff',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseButtonUp="";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDF";
+			};
+			class button_illumFocus: button_mode
+			{
+				idc=1112;
+				x=0.37698862;
+				y=0.80176771;
+				w="safeZoneW * 0.0325";
+				h="safeZoneH * 0.06666667";
+				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceNGALCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRFO";
+			};
+			class button_modeL: button_mode
+			{
+				idc=1120;
+				x=0.66941285;
+				y=0.31287879;
+				w="safeZoneW * 0.04125";
+				h="safeZoneH * 0.05555556";
+				onMouseButtonDown="['mode2',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseZChanged="['mode2',_this #1,'w'] call gjb_itn_fnc_deviceNGALCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODEALT";
+			};
+			class button_onL: button_mode
+			{
+				idc=1121;
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
+				onMouseButtonDown="['fire2',_this #1,'b'] call gjb_itn_fnc_deviceNGALCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
+			};
+		};
+	};
+	class overlayL: device
+	{
+		idc=997;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
+	};
+	class overlay: device
+	{
+		idc=998;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
+	};
+	class onIndicator: overlay
+	{
+		idc=999;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal_onIndicator.paa";
+	};
+};
+class Rsc_gjb_itn_la5b_m300_gplt: Rsc_gjb_itn_ngal_m300_gplt
+{
+	idd=314032;
+	controlsBackground[]=
+	{
+		"deviceL",
+		"device",
+		"knob_mode"
+	};
+	controls[]=
+	{
+		"onIndicator",
+		"overlay",
+		"overlayL",
+		"fire_menu",
+		"ctrls_holder"
+	};
+	class device: Rsc_gjb_itn_BackPicture
+	{
+		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b\base_doff_co.paa";
+	};
+	class deviceL: device
+	{
+		idc=1003;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.34765625";
+		y="safeZoneY + safeZoneH * 0.51736112";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		idc=1060;
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.49062499;
+				y=0.83409095;
+				w="safeZoneW * 0.045";
+				h="safeZoneH * 0.06888889";
+				text="";
+				colorBackground[]={0,0,0,0};
+				colorText[]={0,0,0,0};
+				font="PuristaMedium";
+				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceLA5BCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.41941285;
+				y=0.7270202;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['fire1',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseButtonUp="['fire1',_this #1,'bu'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
+			};
+			class button_illumFocus: button_mode
+			{
+				idc=1110;
+				x=0.34062499;
+				y=0.48257577;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceLA5BCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDFFO";
+			};
+			class button_onL: button_mode
+			{
+				idc=1121;
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
+				onMouseButtonDown="['fire2.5',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
+			};
+		};
+	};
+	class overlayL: device
+	{
+		idc=997;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
+	};
+	class overlay: device
+	{
+		idc=998;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_overlay_co.paa";
+	};
+	class onIndicator: overlay
+	{
+		idc=999;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_onIndicator.paa";
+	};
+};
+class Rsc_gjb_itn_la5b_m600_gplt: Rsc_gjb_itn_la5b_m300_gplt
+{
+	idd=314033;
+	controlsBackground[]=
+	{
+		"deviceL",
+		"knob_modeL",
+		"device",
+		"knob_mode"
+	};
+	controls[]=
+	{
+		"onIndicator",
+		"overlay",
+		"overlayL",
+		"fire_menu",
+		"ctrls_holder"
+	};
+	class deviceL: device
+	{
+		idc=1003;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
+	};
+	class knob_modeL: device
+	{
+		idc=1002;
+		text="";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.34765625";
+		y="safeZoneY + safeZoneH * 0.51736112";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		idc=1060;
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.49062499;
+				y=0.83409095;
+				w="safeZoneW * 0.045";
+				h="safeZoneH * 0.06888889";
+				text="";
+				colorBackground[]={0,0,0,0};
+				colorText[]={0,0,0,0};
+				font="PuristaMedium";
+				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceLA5BCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.41941285;
+				y=0.7270202;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['fire1',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseButtonUp="['fire1',_this #1,'bu'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
+			};
+			class button_illumFocus: button_mode
+			{
+				idc=1110;
+				x=0.34062499;
+				y=0.48257577;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceLA5BCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDFFO";
+			};
+			class button_modeL: button_mode
+			{
+				idc=1120;
+				x=0.66941285;
+				y=0.31287879;
+				w="safeZoneW * 0.04125";
+				h="safeZoneH * 0.05555556";
+				onMouseButtonDown="['mode2',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="['mode2',_this #1,'w'] call gjb_itn_fnc_deviceLA5BCombo";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODEALT";
+			};
+			class button_onL: button_mode
+			{
+				idc=1121;
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
+				onMouseButtonDown="['fire2',_this #1,'b'] call gjb_itn_fnc_deviceLA5BCombo";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
+			};
+		};
+	};
+	class overlayL: device
+	{
+		idc=997;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
+	};
+};
+class Rsc_gjb_itn_ngal_gplt: Rsc_gjb_itn_peq15
+{
+	idd=314034;
+	controlsBackground[]=
+	{
+		"device",
+		"knob_mode"
+	};
+	controls[]=
+	{
+		"onIndicator",
+		"overlay",
+		"fire_menu",
+		"ctrls_holder"
+	};
+	class device: Rsc_gjb_itn_BackPicture
+	{
+		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\ngal\base_doff_co.paa";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.36375";
+		y="safeZoneY + safeZoneH * 0.48111112";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		idc=1060;
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.4269886;
+				y=0.66035354;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				text="";
+				colorBackground[]={0,0,0,0};
+				colorText[]={0,0,0,0};
+				font="PuristaMedium";
+				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceNGAL";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceNGAL";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.45729163;
+				y=0.50883842;
+				w="safeZoneW * 0.030625";
+				h="safeZoneH * 0.04555556";
+				onMouseButtonDown="['fire',_this #1,'b'] call gjb_itn_fnc_deviceNGAL";
+				onMouseButtonUp="['fire',_this #1,'bu'] call gjb_itn_fnc_deviceNGAL";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
+			};
+			class button_illumDiffuse: button_mode
+			{
+				idc=1111;
+				x=0.39365527;
+				y=0.4320707;
+				w="safeZoneW * 0.0275";
+				h="safeZoneH * 0.03666667";
+				onMouseButtonDown="['illumDiff',_this #1,'b'] call gjb_itn_fnc_deviceNGAL";
+				onMouseButtonUp="";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDF";
+			};
+			class button_illumFocus: button_mode
+			{
+				idc=1112;
+				x=0.37698862;
+				y=0.80176771;
+				w="safeZoneW * 0.0325";
+				h="safeZoneH * 0.06666667";
+				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceNGAL";
+				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceNGAL";
+				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceNGAL";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRFO";
+			};
+		};
+	};
+	class overlay: device
+	{
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_overlay_co.paa";
+	};
+	idc=998;
+	class onIndicator: overlay
+	{
+		idc=999;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\NGAL_onIndicator_co.paa";
+	};
+};
+class Rsc_gjb_itn_la5b_gplt: Rsc_gjb_itn_peq15
+{
+	idd=314031;
+	controlsBackground[]=
+	{
+		"device",
+		"knob_mode"
+	};
+	controls[]=
+	{
+		"onIndicator",
+		"overlay",
+		"fire_menu",
+		"ctrls_holder"
+	};
+	class device: Rsc_gjb_itn_BackPicture
+	{
+		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\la5b\base_doff_co.paa";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.35375";
+		y="safeZoneY + safeZoneH * 0.61222223";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		idc=1060;
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.49062499;
+				y=0.83409095;
+				w="safeZoneW * 0.045";
+				h="safeZoneH * 0.06888889";
+				text="";
+				colorBackground[]={0,0,0,0};
+				colorText[]={0,0,0,0};
+				font="PuristaMedium";
+				sizeEx="(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceLA5B";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceLA5B";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODE";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.41941285;
+				y=0.7270202;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['fire',_this #1,'b'] call gjb_itn_fnc_deviceLA5B";
+				onMouseButtonUp="['fire',_this #1,'bu'] call gjb_itn_fnc_deviceLA5B";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_PEQ15PWR";
+			};
+			class button_illumFocus: button_mode
+			{
+				idc=1110;
+				x=0.34062499;
+				y=0.48257577;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.06111112";
+				onMouseButtonDown="['illumD',_this #1,'b'] call gjb_itn_fnc_deviceLA5B";
+				onMouseButtonUp="['illumU',_this #1,'b'] call gjb_itn_fnc_deviceLA5B";
+				onMouseZChanged="['illumW',_this #1,'w'] call gjb_itn_fnc_deviceLA5B";
+				tooltip="$STR_GJB_ITN_CORE_DEVIRDFFO";
+			};
+		};
+	};
+	class overlay: device
+	{
+		idc=998;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_overlay_co.paa";
+	};
+	class onIndicator: overlay
+	{
+		idc=999;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\LA5B_onIndicator_co.paa";
+	};
+};
+class Rsc_gjb_itn_m300_gplt: Rsc_gjb_itn_acc_flashlight
+{
+	idd=314037;
+	class device: Rsc_gjb_itn_BackPicture
+	{
+		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m300\base_co.paa";
+	};
+	class overlay: device
+	{
+		idc=998;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M300_overlay_co.paa";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.46";
+		y="safeZoneY + safeZoneH * 0.68666667";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		class Controls
+		{
+			class button_on: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1101;
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
+				onMouseButtonDown="['fire',_this #1,'b'] call gjb_itn_fnc_deviceUTG";
+				onMouseButtonUp="['fire',_this #1,'bu'] call gjb_itn_fnc_deviceUTG";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
+			};
+		};
+	};
+};
+class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
+{
+	idd=314038;
+	class device: Rsc_gjb_itn_BackPicture
+	{
+		idc=1000;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\m600\base_co.paa";
+	};
+	class overlay: device
+	{
+		idc=998;
+		text="\gjb_itn\addons\gjb_itn_compat_gplt\ui\M600_overlay_co.paa";
+	};
+	class fire_menu: Rsc_gjb_itn_autoOn_base
+	{
+		idc=1050;
+		x="safeZoneX + safeZoneW * 0.46";
+		y="safeZoneY + safeZoneH * 0.68666667";
+	};
+	class ctrls_holder: Rsc_gjb_itn_ctrlsHolder_base
+	{
+		class Controls
+		{
+			class button_mode: Rsc_gjb_itn_HiddenButton
+			{
+				idc=1100;
+				x=0.66941285;
+				y=0.31287879;
+				w="safeZoneW * 0.04125";
+				h="safeZoneH * 0.05555556";
+				onMouseButtonDown="['mode1',_this #1,'b'] call gjb_itn_fnc_deviceM952";
+				onMouseZChanged="['mode1',_this #1,'w'] call gjb_itn_fnc_deviceM952";
+				tooltip="$STR_GJB_ITN_CORE_DEVMODEALT";
+			};
+			class button_on: button_mode
+			{
+				idc=1101;
+				x=0.68456435;
+				y=0.86439395;
+				w="safeZoneW * 0.0375";
+				h="safeZoneH * 0.05666667";
+				onMouseButtonDown="['fire',_this #1,'b'] call gjb_itn_fnc_deviceM952";
+				onMouseButtonUp="['fire',_this #1,'bu'] call gjb_itn_fnc_deviceM952";
+				onMouseZChanged="";
+				tooltip="$STR_GJB_ITN_CORE_DEVPWR";
+			};
+		};
+	};
+class CfgWeapons
+	{
+		//HK416 D10
+			class GPLT_tran_foster
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class Louetta_tran_fsp_base
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_Hotch
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_mk17
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_mk17_wht: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_blk: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_1: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_2: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_3: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_s_4: GPLT_tran_mk17{};
+			class GPLT_tran_mk17_gry: GPLT_tran_mk17{};
+			class GPLT_tran_tim
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.214441,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_URGI_Short
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_URGI
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GGPLT_M110_SASS
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
+			class GPLT_tran_M110_SASS_P
+			{
+				gjb_itn_memoryPoints[]=
+				{
+					{-0.283867,0.046036,0.106207}
+				};
+			};
 	};
 };
