@@ -368,9 +368,9 @@ class CfgWeapons
 			{
 				gjb_itn_memoryPoints[]=
 				{
-					{0.029436,-1.76599e-008,0.0951298}
+					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class Louetta_tran_fsp_base
 			{
@@ -378,7 +378,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_Hotch
 			{
@@ -386,7 +386,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_mk17
 			{
@@ -394,7 +394,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_mk17_wht: GPLT_tran_mk17{};
 			class GPLT_tran_mk17_blk: GPLT_tran_mk17{};
@@ -408,7 +408,7 @@ class CfgWeapons
 				{
 					{-0.214441,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_URGI_Short
 			{
@@ -416,7 +416,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_URGI
 			{
@@ -424,7 +424,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GGPLT_M110_SASS
 			{
@@ -432,7 +432,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 			class GPLT_tran_M110_SASS_P
 			{
@@ -440,7 +440,7 @@ class CfgWeapons
 				{
 					{-0.283867,0.046036,0.106207}
 				};
-				gjb_itn_nonStdRailFix="rawPos";
+				gjb_itn_nonStdRailFix="topRailOnly";
 			};
 	};
 };
