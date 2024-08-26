@@ -1130,7 +1130,7 @@ class CfgWeapons
 			{
 				gjb_itn_memoryPoints[]=
 				{
-					{-0.283867,0.046036,0.106207}
+					{-0.212695,0.046036,0.10621}
 				};
 			};
 			class GPLT_tran_Hotch
