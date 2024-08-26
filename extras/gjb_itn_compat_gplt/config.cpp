@@ -1118,71 +1118,71 @@ class Rsc_gjb_itn_m600_ti: Rsc_gjb_itn_m952v
 	};
 class CfgWeapons
 	{
-		//HK416 D10
-			class GPLT_tran_foster
+		class GPLT_tran_foster
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class Louetta_tran_fsp_base
+		class Louetta_tran_fsp_base
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.212695,0.046036,0.10621}
 				};
+				gjb_itn_nonStdRailFix="rawpos";
 			};
-			class GPLT_tran_Hotch
+		class GPLT_tran_Hotch
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_mk17
+		class GPLT_tran_mk17
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_mk17_wht: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_blk: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_s_1: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_s_2: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_s_3: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_s_4: GPLT_tran_mk17{};
-			class GPLT_tran_mk17_gry: GPLT_tran_mk17{};
-			class GPLT_tran_tim
+		class GPLT_tran_mk17_wht: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_blk: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_s_1: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_s_2: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_s_3: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_s_4: GPLT_tran_mk17{};
+		class GPLT_tran_mk17_gry: GPLT_tran_mk17{};
+		class GPLT_tran_tim
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.214441,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_URGI_Short
+		class GPLT_tran_URGI_Short
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_URGI
+		class GPLT_tran_URGI
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GGPLT_M110_SASS
+		class GGPLT_M110_SASS
 			{
 				gjb_itn_memoryPoints[]=
 				{
 					{-0.283867,0.046036,0.106207}
 				};
 			};
-			class GPLT_tran_M110_SASS_P
+		class GPLT_tran_M110_SASS_P
 			{
 				gjb_itn_memoryPoints[]=
 				{
